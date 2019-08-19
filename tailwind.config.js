@@ -3,11 +3,11 @@ const allVariants = [
   'hover',
   'focus',
   'active',
-  'group-hover',
-  'focus-within',
-  'first',
-  'last',
-  'not-first',
+  // 'group-hover',
+  // 'focus-within',
+  // 'first',
+  // 'last',
+  // 'not-first',
   'not-last',
 ]
 const allProperties = [
@@ -438,6 +438,7 @@ module.exports = {
     },
     fontWeight: {
       normal: '400',
+      medium: '500',
       semibold: '600',
       bold: '700',
     },
