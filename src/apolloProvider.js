@@ -19,7 +19,7 @@ const getHeaders = () => {
 }
 
 const link = new HttpLink({
-  uri: 'https://hasura.io/learn/graphql',
+  uri: process.env.VUE_APP_BACKEND_URI,
   fetch,
   headers: getHeaders(),
 })
