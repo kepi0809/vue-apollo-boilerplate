@@ -1,8 +1,5 @@
 const path = require('path')
 module.exports = {
-  pluginOptions: {
-    apollo: { enableMocks: false, enableEngine: true },
-  },
   transpileDependencies: ['apollo-link-http', 'vue-apollo'],
   lintOnSave: false,
   configureWebpack: {
@@ -11,7 +8,6 @@ module.exports = {
       hints: process.env.NODE_ENV === 'production' && !process.env.VUE_APP_TEST && 'warning',
     },
     resolve: {
-      extensions: { delete: '.vue' },
       alias: {
         '@': path.resolve(__dirname, 'src'),
         '@src': path.resolve(__dirname, 'src'),
