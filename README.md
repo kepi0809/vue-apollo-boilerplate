@@ -1,10 +1,6 @@
-# vue-apollo-boilerplate
+# bmw-prototype
 
-The setup is strongly inspired by [Chris Fritz's vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate). 
-
-## Tailwindcss
-
-This is my favorite utility-first CSS framework, which makes the development a lot faster. Read more [here](https://tailwindcss.com/docs/utility-first/)
+The setup is strongly inspired by [Chris Fritz's vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate).
 
 ## Generators
 
@@ -39,7 +35,7 @@ There are some helpful general aliases set up:
 - _@utils:_ src/utils
 - _@views:_ src/views/
 
-# Linting & formatting
+## Linting & formatting
 
 - [Languages](#languages)
 - [Scripts](#scripts)
