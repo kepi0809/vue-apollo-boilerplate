@@ -1,6 +1,10 @@
 # vue-apollo-boilerplate
 
-The setup is strongly inspired by [Chris Fritz's vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate).
+The setup is strongly inspired by [Chris Fritz's vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate). 
+
+## Tailwindcss
+
+This is my favorite utility-first CSS framework, which makes the development a lot faster. Read more [here](https://tailwindcss.com/docs/utility-first/)
 
 ## Generators
 
